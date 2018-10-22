@@ -12,7 +12,7 @@ sudo apt-get install ffmpeg
 chmod 755 script.sh
 
 How to run:
-Put inside an input file your youtube links 
+Put inside an input file your youtube links(one link in every line)
 For example:
 www.youtube.com/link1
 www.youtube.com/link2
