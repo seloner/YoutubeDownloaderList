@@ -19,4 +19,5 @@ www.youtube.com/link2
 etc...
 Then from command line:
 ./script.sh input
+
 Songs folder will be created where all of the downloaded songs will be located
