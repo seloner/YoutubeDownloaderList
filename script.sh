@@ -11,5 +11,5 @@ else
 fi	
 while IFS= read -r var
 do
-  youtube-dl --extract-audio --audio-format mp3 $var -o $path"%(title)s-%(id)s.%(ext)s"
+  youtube-dl --extract-audio --audio-format mp3  -o $path'%(title)s.%(ext)s' $var
 done < "$input"
